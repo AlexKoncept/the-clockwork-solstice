@@ -1,5 +1,19 @@
 # ⚙️ The Clockwork Solstice
 
+<p align="center">
+  <img src="./18356978677104904620.jpeg" alt="The Clockwork Solstice Logo" width="400"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/AlexKoncept/the-clockwork-solstice/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License MIT"/></a>
+  <img src="https://img.shields.io/badge/React-18.x-61DAFB.svg" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6.svg" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Vite-5.x-646CFF.svg" alt="Vite"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC.svg" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Motion-React-FF0055.svg" alt="Motion React"/>
+</p>
+
+
 An exquisite, highly interactive creative-coding monument bridging the age-old elegance of mechanic horology, watch modding, and digital aesthetics. Crafted by **Alex Koncept**.
 
 ---
