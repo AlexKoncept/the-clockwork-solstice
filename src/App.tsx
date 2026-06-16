@@ -161,7 +161,7 @@ export default function App() {
               <img 
                 src="/logo.png" 
                 alt="Logo" 
-                className={`w-10 h-10 object-contain rounded-xl border p-1 transition-all duration-300 hover:scale-105 ${
+                className={`w-14 h-14 object-contain rounded-xl border p-1 transition-all duration-300 hover:scale-105 ${
                   theme === 'summer' 
                     ? 'bg-transparent border-pink-500/20 shadow-[0_4px_12px_rgba(236,72,153,0.06)]' 
                     : 'bg-black/35 border-slate-800 shadow-[0_4px_12px_rgba(0,0,0,0.3)]'
