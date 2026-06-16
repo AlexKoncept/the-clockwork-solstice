@@ -157,21 +157,19 @@ export default function App() {
           theme === 'summer' ? 'border-pink-500/15' : 'border-[#D4A359]/15'
         }`}>
           <div className="space-y-1.5 animate-fade-in">
-            <div className="flex items-center gap-2.5">
+            <div className="flex items-center gap-3">
               <img 
                 src="/logo.png" 
                 alt="Logo" 
-                className="w-5.5 h-5.5 object-contain rounded-md border border-white/10"
+                className={`w-10 h-10 object-contain rounded-xl border p-1 transition-all duration-300 hover:scale-105 ${
+                  theme === 'summer' 
+                    ? 'bg-transparent border-pink-500/20 shadow-[0_4px_12px_rgba(236,72,153,0.06)]' 
+                    : 'bg-black/35 border-slate-800 shadow-[0_4px_12px_rgba(0,0,0,0.3)]'
+                }`}
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
               />
-              <Sun className={`w-5 h-5 animate-spin-slow transition-colors duration-500 ${theme === 'summer' ? 'text-pink-500' : 'text-[#FCD34D]'}`} />
-              <span className={`font-mono text-[9px] tracking-widest uppercase font-semibold transition-colors duration-500 ${
-                theme === 'summer' ? 'text-pink-400' : 'text-[#D4A359]'
-              }`}>
-                {t.labLab}
-              </span>
             </div>
             <h1 className="font-display text-2xl sm:text-3xl font-bold tracking-tight text-slate-100 flex flex-wrap items-center gap-2.5">
               <span>{t.title}</span>
