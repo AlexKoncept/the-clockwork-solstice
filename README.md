@@ -1,7 +1,7 @@
 # ⚙️ The Clockwork Solstice
 
 <p align="center">
-  <img src="./18356978677104904620.jpeg" alt="The Clockwork Solstice Logo" width="400"/>
+  <img src="./logo.jpeg" alt="The Clockwork Solstice Logo" width="400"/>
 </p>
 
 <p align="center">
