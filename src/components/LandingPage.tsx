@@ -144,21 +144,19 @@ export default function LandingPage({ language, setLanguage, theme, setTheme, on
       <header id="landing-header" className={`w-full max-w-6xl mx-auto flex justify-between items-center z-10 py-2 border-b select-none transition-colors duration-500 ${
         isSummer ? 'border-pink-200/60' : 'border-white/5'
       }`}>
-        <div className="flex items-center gap-2.5">
+        <div className="flex items-center gap-3">
           <img 
             src="/logo.png" 
             alt="Logo" 
-            className="w-5.5 h-5.5 object-contain rounded-md border border-white/10"
+            className={`w-10 h-10 object-contain rounded-xl border p-1 transition-all duration-300 hover:scale-105 ${
+              isSummer 
+                ? 'bg-white/80 border-pink-200/60 shadow-[0_4px_12px_rgba(236,72,153,0.06)]' 
+                : 'bg-black/35 border-slate-800 shadow-[0_4px_12px_rgba(0,0,0,0.3)]'
+            }`}
             onError={(e) => {
               e.currentTarget.style.display = 'none';
             }}
           />
-          <Sun className={`w-5 h-5 animate-spin-slow transition-colors duration-500 ${isSummer ? 'text-pink-600' : 'text-[#D4A359]'}`} />
-          <span className={`font-mono text-[9px] tracking-widest uppercase font-semibold transition-colors duration-500 ${
-            isSummer ? 'text-rose-700/80' : 'text-slate-400'
-          }`}>
-            {activeText.badgeText}
-          </span>
         </div>
 
         {/* Theme and Language Selection Group */}
