@@ -1,0 +1,6 @@
+{
+  "name": "The Clockwork Solstice",
+  "description": "A minimalist watchmaking-inspired 2D canvas game jam prototype utilizing rotating interconnected gears and elegant astronomical aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
