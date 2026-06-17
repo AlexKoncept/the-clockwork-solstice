@@ -52,7 +52,7 @@ At the absolute center of this ecosystem lies the **Celestial Globe Selector**, 
 
 ### 🌐 Version Française
 
-Un monument de code créatif exquis et hautement interactif, mêlant l'élégance séculaire de l'horlogerie mécanique, du modding de montres et de l'esthétique numérique. Conçu par **Alex Koncept**.
+Un jeu de simulation raffiné et très interactif qui allie l'élégance intemporelle de l'horlogerie mécanique, du modding de montres et de l'esthétique numérique. Conçu par **Alex Koncept**.
 
 ### 🌸 Passion & Philosophie
 Né d'une véritable obsession pour l'horlogerie mécanique de haute précision, le modding et les complications astronomiques, **The Clockwork Solstice** est conçu pour traduire l'esthétique tactile du monde physique en animation numérique. Il connecte le flux mathématique minutieux des engrenages, des échappements et des ressorts de réglage avec la dynamique en temps réel du navigateur. C'est une célébration sensorielle du temps, de l'astronomie et de l'artisanat numérique.
