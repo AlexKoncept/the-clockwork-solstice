@@ -21,7 +21,7 @@
 
 ---
 
-## 📸 Preview / Aperçu
+## 📊 Project Infographics
 
 <p align="center">
   <img src="./capture.png" alt="The Clockwork Solstice Screenshot" width="750" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);"/>
