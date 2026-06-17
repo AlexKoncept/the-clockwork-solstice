@@ -25,7 +25,7 @@ export default function LandingPage({ language, setLanguage, theme, setTheme, on
     en: {
       subtitle: "A Creative Coding Experiment",
       passionTitle: "The Craft & Philosophy",
-      passionText: "Born from a genuine passion for mechanical horology and watch modding, this project is an emotional bridge between traditional craftsmanship and creative coding. The goal is to translate the tactile beauty, mathematical precision, and mesmerizing flow of gears into an interactive digital experience.",
+      passionText: "Born from a genuine passion for mechanical horology and watch modding, this project takes the form of a highly interactive simulation game, combining the timeless elegance of mechanical clockwork, traditional craftsmanship, and creative coding. The goal is to translate the tactile beauty, mathematical precision, and mesmerizing flow of gears into this digital experience.",
       cta: "START SIMULATION",
       subCta: "LANCER LE MÉCANISME",
       signature: "Alex Koncept — Merging AI, DIY, and Horology.",
@@ -80,7 +80,7 @@ export default function LandingPage({ language, setLanguage, theme, setTheme, on
     fr: {
        subtitle: "Une expérience de code créatif",
        passionTitle: "L'Art & La Philosophie",
-       passionText: "Né d'une véritable passion pour l'horlogerie mécanique et le modding de montres, ce projet est un pont entre l'artisanat traditionnel et le code créatif. L'objectif est de traduire la beauté tactile, la précision mathématique et le flux fascinant des engrenages dans une expérience digitale interactive.",
+       passionText: "Né d'une véritable passion pour l'horlogerie mécanique et le modding de montres, ce projet prend la forme d'un jeu de simulation hautement interactif alliant l'élégance intemporelle de l'horlogerie mécanique, l'artisanat traditionnel et le code créatif. L'objectif est de traduire la beauté tactile, la précision mathématique et le flux fascinant des engrenages dans cette expérience digitale.",
        cta: "LANCER LE MÉCANISME",
        subCta: "START SIMULATION",
        signature: "Alex Koncept — À la croisée de l'IA, du DIY et de l'Horlogerie.",
