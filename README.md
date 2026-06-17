@@ -31,7 +31,7 @@
 
 ### 🌐 English Version
 
-An exquisite, highlyinteractive simulation game bridging the age-old elegance of mechanic horology, watch modding, and digital aesthetics. Crafted by **Alex Koncept**.
+An exquisite, highly interactive simulation game bridging the age-old elegance of mechanic horology, watch modding, and digital aesthetics. Crafted by **Alex Koncept**.
 
 ### 🌸 Passion & Philosophy
 Born from a genuine obsession with high-precision mechanical watchmaking, watch modding, and astronomical complications, **The Clockwork Solstice** is designed to translate physical tactile aesthetics into digital animation. It connects the meticulous mathematical flow of gears, escapements, and calibrating springs with real-time browser dynamics and physics equations. It is a sensory celebration of time, astronomy, and digital craftsmanship.
