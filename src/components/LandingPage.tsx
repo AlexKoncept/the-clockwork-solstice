@@ -35,6 +35,24 @@ export default function LandingPage({ language, setLanguage, theme, setTheme, on
       themeLabel: "Theme: ",
       themeClassic: "Winter Solstice",
       themeSummer: "Summer Solstice",
+      howToPlayTitle: "How to Play & Interact",
+      howToPlaySteps: [
+        {
+          icon: "🌓",
+          title: "Select Your Solstice",
+          desc: "Toggle between Winter & Summer themes to dynamically recalibrate daylight gradients, gear velocities, and ambient synth states."
+        },
+        {
+          title: "Regulate the Clockwork",
+          icon: "⏰",
+          desc: "Adjust escapement frequencies and gear coefficients inside the instrument deck to master the mechanical kinetic momentum."
+        },
+        {
+          title: "Solve Horology Challenges",
+          icon: "🧩",
+          desc: "Progress through cogwheel-meshing puzzle trials. Align 36T, 24T, and 18T gear ratios under designated velocities to gain Chronos XP!"
+        }
+      ],
       featuresTitle: "Mechanical Pillars",
       features: [
         {
@@ -71,6 +89,24 @@ export default function LandingPage({ language, setLanguage, theme, setTheme, on
        badgeText: "ÉDITION HORLOGERIE",
        themeLabel: "Thème : ",
        themeClassic: "Solstice d'Hiver",
+        howToPlayTitle: "Comment Jouer & Interagir",
+        howToPlaySteps: [
+          {
+            icon: "🌓",
+            title: "Sélectionnez votre Solstice",
+            desc: "Basculez entre Hiver et Été pour recalculer dynamiquement les dégradés diurnes, la vélocité des rouages et les ondes du synthétiseur d'ambiance."
+          },
+          {
+            icon: "⏰",
+            title: "Régulez l'Échappement",
+            desc: "Ajustez la fréquence d'échappement et les coefficients mécaniques dans le panneau d'instruments pour maîtriser l'énergie interne du mécanisme."
+          },
+          {
+            icon: "🧩",
+            title: "Résolvez les Défis Horlogers",
+            desc: "Enchaînez les niveaux avec des formules d'engrènement exactes (36D, 24D, 18D) sous vélocité cible pour accumuler de l'expérience Chronos !"
+          }
+        ],
        themeSummer: "Solstice d'Été",
        featuresTitle: "Piliers Mécaniques",
       features: [
@@ -432,6 +468,55 @@ export default function LandingPage({ language, setLanguage, theme, setTheme, on
             {activeText.subCta}
           </p>
         </div>
+
+        {/* How to Play Section (Comment Jouer) */}
+        <section id="how-to-play-section" className={`w-full space-y-6 pt-10 border-t transition-colors duration-500 ${
+          isSummer ? 'border-pink-100' : 'border-white/5'
+        }`}>
+          <div className="text-center">
+            <h2 className={`font-display text-[10px] sm:text-xs font-bold tracking-widest uppercase transition-colors duration-500 ${
+              isSummer ? 'text-pink-600' : 'text-[#D4A359]'
+            }`}>
+              {activeText.howToPlayTitle}
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-4xl mx-auto">
+            {activeText.howToPlaySteps.map((step, idx) => (
+              <div
+                key={idx}
+                className={`relative border rounded-2xl p-5 overflow-hidden transition-all duration-300 hover:-translate-y-1 ${
+                  isSummer 
+                    ? 'bg-white/90 border-pink-100/80 shadow-[0_4px_24px_rgba(236,72,153,0.05)] hover:bg-white hover:border-pink-300' 
+                    : 'bg-[#12161A]/40 border-slate-800/80 hover:bg-[#12161A]/60 hover:border-slate-700/80 hover:shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
+                }`}
+              >
+                {/* Steps Counter Badge */}
+                <div className={`absolute top-3.5 right-3.5 text-[9px] font-mono font-black px-2 py-0.5 rounded-full ${
+                  isSummer ? 'bg-pink-100/80 text-pink-700' : 'bg-slate-800/80 text-amber-500'
+                }`}>
+                  0{idx + 1}
+                </div>
+
+                <div className="space-y-2 mt-2">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl select-none filter drop-shadow">{step.icon}</span>
+                    <h4 className={`font-display text-xs sm:text-sm font-bold transition-colors duration-500 ${
+                      isSummer ? 'text-pink-950 font-black' : 'text-slate-100'
+                    }`}>
+                      {step.title}
+                    </h4>
+                  </div>
+                  <p className={`font-sans text-xs leading-relaxed transition-colors duration-500 ${
+                    isSummer ? 'text-stone-700/90' : 'text-slate-400'
+                  }`}>
+                    {step.desc}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
         {/* Features Grid Showcase (The Pillars) */}
         <section id="features-section" className="w-full space-y-6 pt-4">
